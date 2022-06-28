@@ -115,7 +115,10 @@
 
 }
 
-
+.estrela_header{
+    position:relative ;
+    left: 0px;
+}
 
 .conteudo{
     background-color: #2A2A2A;
@@ -128,8 +131,10 @@
 
 
 .meio_pag{
-    max-width: 400px;
-    max-height: 600px;
+    width: 400px;
+    height: 600px;
+    box-shadow: 0px 0px 20px #1A1A1A;
+    border: 1px solid rgba(240, 248, 255, 0.356);
 }
 
 
@@ -160,10 +165,10 @@
 }
 
 
-
 .meio_pag .imagem1{
-    box-shadow: 0px 0px 20px #1A1A1A;
-    border: 1px solid rgba(240, 248, 255, 0.356);
+    position: absolute;
+    left: 460px;
+    bottom: 50px;
 }
 
 .meio_pag .imagem2{
@@ -172,6 +177,12 @@
     bottom: -55px;
     opacity: 0;
 }
+.meio_pag:hover{
+    box-shadow: 0px 0px 20px aliceblue;
+    border: none;
+    background-color:#3534348c;
+    transition: 1s ease
+}
 
 .meio_pag:hover .imagem2{
     opacity: 1;
@@ -179,10 +190,8 @@
 
 }
 
-.meio_pag .imagem1:hover{
-    opacity: 0.8;
-    box-shadow: 0px 0px 20px aliceblue;
-    border: none;
+.meio_pag:hover .imagem1{
+    opacity: 0.9;
 }
 
 .meio_pag:hover .text_hide{
