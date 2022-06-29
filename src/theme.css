@@ -140,8 +140,11 @@
 
 .text_hide{
     position:absolute;
-    left: 469px;
-    bottom: 470px;
+    display: flex;
+    align-items: center;
+    padding-top: 25px;
+    padding-left: 12px;
+    padding-right: 10px;
 
     font-family: 'Roboto', sans-serif;
     text-shadow: 4px 6px 6px rgba(0, 0, 0, 0.25);
@@ -153,8 +156,10 @@
 
 .text_hide_low{
     position:absolute;
-    left: 515px;
-    bottom: -10px;
+    display: flex;
+    align-items: center;
+    padding-top: 550px;
+    padding-left: 55px;
 
     font-family: 'Roboto', sans-serif;
     text-shadow: 4px 6px 6px rgba(0, 0, 0, 0.25);
